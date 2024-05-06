@@ -94,3 +94,15 @@ img:hover {
     border-radius: 20%;
 }
 
+@media screen and (max-width: 500px) {
+    .opera {
+        grid-template-columns: 1fr;
+    }
+    .opera > h2 {
+        font-size: large;
+    }
+}
+    align-self: center;
+    border-radius: 20%;
+}
+
