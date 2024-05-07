@@ -42,7 +42,7 @@ body{
     grid-column: 4;
 }
 img {
-    border: 3px solid black;
+    border:  0.5rem solid black;
     border-radius: 50%;
     background-color: #a8dadc;
     transition: border-width 0.2s ease-in;  
@@ -101,17 +101,21 @@ img:hover {
     }
     body {
         height: 100VH;
-        width: 100vw;
+        width: 100%;
         display: grid;
         grid-template-rows: repeat(4,1fr);
+        overflow-x: hidden;
     }
     img {
-        width: 100px;  
-        height: 100px; 
-        object-fit: cover; 
+        width: 100px; 
+        height: 100px;
+        object-fit: cover;
     }
     .scoreboard{
         display: flex;
         justify-content: space-around;
     }
+    
+
+
 }
